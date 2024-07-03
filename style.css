@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin:0;
 }
-/* 
+
 
 header{
     background-color: white;
@@ -81,7 +81,7 @@ header >.navbar > .menu-link a{
     letter-spacing: 2px;
     box-shadow: 0px 2px 20px rgba(151, 168, 206, 0.521);
     color: white;
-} */
+}
 
 .about-bg{
     padding: 175px 0 85px;
