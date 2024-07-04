@@ -13,6 +13,7 @@ header{
     width:100%;
     position: fixed;
     box-shadow: 0px 2px 20px rgba(27, 30, 36, 0.521);
+    z-index: 99;
 }
 
 header >.navbar{
@@ -20,12 +21,15 @@ header >.navbar{
     justify-content: space-between;
     align-items: center;
     max-width: 1450px;
+
+    
 }
 
 header >.navbar > .menu-link{
     list-style-type: none;
     display: flex;
     gap: 35px;
+  
 }
 
 header >.navbar > .menu-link a{
