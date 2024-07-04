@@ -304,3 +304,38 @@ header >.navbar > .menu-link a{
     color: #012970;
     box-shadow: 0px 5px 25px rgba(47, 62, 206, 0.877);
   }
+
+.btn-read-more i{transition: .3s ease-in;}
+  .btn-read-more:hover i{
+    transform: translateX(10px);
+  }
+
+
+
+  .porfolio{
+    padding: 175px 0 75px;
+    background-color: rgba(255, 255, 255, 0.363);
+  }
+
+  .col-portfolio{
+    padding:15px;
+    flex: 33.33%;
+    
+  }
+
+  .col-portfolio-box{
+    padding: 60px 30px 60px;
+    border: 1px solid #0a62fa10;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease-in;
+  }
+
+  .col-portfolio-box:hover{
+    box-shadow: 0px 2px 20px rgba(27, 30, 36, 0.521);
+    transform: translateY(-10px);
+  }
+  .col-portfolio-box img{
+    width: 100%;
+    height: auto;
+  }
