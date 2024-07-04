@@ -91,13 +91,10 @@ header >.navbar > .menu-link a{
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0 80px;
   }
   
-  @media (min-width: 576px) {
+  /* @media (min-width: 576px) {
     .container {
       max-width: 540px;
     }
@@ -119,7 +116,7 @@ header >.navbar > .menu-link a{
     .container {
       max-width: 1140px;
     }
-  }
+  } */
 
   .container > .about-title{
     text-align: center;
@@ -161,4 +158,149 @@ header >.navbar > .menu-link a{
     padding: 60px 50px 60px;
     text-align: center;
     
+  }
+
+  .service{
+    padding: 175px 0 85px;
+  }
+
+  .container > .service-title{
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .container > .service-title h2{
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: #0a62fa27;
+    display: inline-block;
+    font-size: 17px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color:rgb(0, 0, 0);
+    font-weight: 450;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .service-title h2::before{
+    content:"";
+    width:42px;
+    height: 3px;
+    background-color: rgba(0, 0, 255, 0.705);
+    position: absolute;
+    margin-left: 50%;
+    left:-20px;
+    top: 50px;
+    
+  }
+  .col-service{
+    padding:15px;
+    flex:33.33%;
+  }
+
+  .col-service > .col-service-box{
+    padding:80px 20px;
+    border:1px solid #0a62fa10;
+    transition: .3s;
+    text-align: center;
+    box-shadow: 0px 0 30px rgba(1, 42, 112, 0.548);
+    border-bottom: 3px solid #4154f1;
+    border-radius: 6px;
+  }
+
+  .col-service > .col-service-box:hover{
+    background-color: #4154f1;
+  }
+
+.col-service > .col-service-box > .col-service-icon{
+  width:64px;
+  height:64px;
+  background-color: #06235341;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 35px;
+  border-radius: 4px;
+  border:1px solid #4154f1;
+  
+}
+
+  .col-service > .col-service-box > .col-service-icon i{
+    font-size: 35px;
+    color:#ffffff;
+    
+  }
+
+ .col-service:hover > .col-service-box > .col-service-icon{
+  border:1px solid white;
+ }
+  .col-service-box h3{
+    font-size: 35px;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+    transition: .3;
+  }
+  .col-service-box:hover p{color: white;}
+  .col-service-box:hover h3{color: white;}
+  .col-service-box p{
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 1.5em;
+    transition: .3s;
+  }
+
+
+  .col-aboutme{
+    flex: 50%;
+    padding:15px;
+    border:5px;
+    
+  }
+
+  .col-about-box{
+    padding: 0 15px 0 0;
+    
+  }
+  .col-about-box h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+
+  .col-about-box h3{
+    font-size: 25px;
+    font-weight: 750;
+    color: #012970;
+    margin-bottom: 25px;
+  }
+
+  .col-about-box p{
+    margin:15px 0 30px 0;
+    line-height: 35px;
+
+  }
+
+  .btn-read-more{
+    padding: 16px 45px;
+    background-color: #012970;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    
+    letter-spacing: 2px;
+    transition: .4s ease-in;
+  }
+  .btn-read-more:hover{
+    background-color: white;
+    color: #012970;
+    box-shadow: 0px 5px 25px rgba(47, 62, 206, 0.877);
   }
